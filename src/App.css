@@ -1,0 +1,184 @@
+.mainContainer{
+  height: 500px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  flex-direction: column;
+  border-radius: 8px;
+
+}
+
+.divfirst{
+ height: 7%;
+ /* border: 2px solid blue; */
+ width: 100%;
+ background-color: rgb(204, 214, 214);
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: start;
+ gap: 10px;
+ /* border-radius: 5px; */
+
+
+
+}
+.one{
+  /* border: 1px black ; */
+  width: 10px;
+  height: 20%;
+  background-color: blueviolet;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-left: 10px;
+}
+.two{
+  /* border: 1px black ; */
+  width: 10px;
+  height: 20%;
+  background-color: rgb(250, 7, 20);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;}
+.three{
+  /* border: 1px black ;   */
+  width: 10px;
+  height: 20%;
+  background-color: rgb(22, 218, 15);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;}
+.divsecond{
+height: 95%;
+/* border: 2px solid rgb(24, 24, 54); */
+width: 100%;
+background-color: aqua;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.card{
+  /* border: 2px solid red; */
+  /* height: 80%; */
+  /* width: 60%; */
+  background-color: aliceblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  height: 80%;
+  width: 80%;
+  /* padding: 10px */
+
+}
+.carditem{
+  /* border: 2px solid rgb(46, 40, 40); */
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.card2{
+  /* border: 2px solid red; */
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* max-width: 300px; */
+  /* border: 2px solid blue; */
+  width: 60%;
+  gap: 10px;
+}
+.rangcss{
+  width: 60%;
+display: flex;
+justify-content: start;
+}
+.range-value{
+  width: 60%;
+}
+.checkbox-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input{
+  background-color: aliceblue;
+
+}
+.iteam-card{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  gap: 10px;
+
+}
+
+
+.inputD >.input-icon{
+  background-color: aliceblue;
+  color: black;
+}
+
+.inputshow{
+  color: black;
+  position: relative;
+  height: 20px;
+  border-radius: 5px;
+}
+.input-icon{
+  position: absolute;
+  right: 500px;
+  border: none;
+  margin-top: 4px;
+  height: 20px; 
+}
+.btn{
+  background-color: aquamarine;
+  color: black;
+  border-radius: 5px;
+  height: 29px;
+  width: 25%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin-bottom: 4px; */
+  margin-top:  -4px;
+  margin-left: 10px;
+}
+.inputD{
+  width: 300px;
+  /* border: 2px solid red; */
+  display: flex;
+  /* flex-direction: row; */
+}
